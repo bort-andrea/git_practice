@@ -1,0 +1,29 @@
+*{
+    font-family: Helvetica;
+}
+.titolo{
+    background-image: url("../pattern.jpeg");
+    font-size:100px;
+    font-weight:bold;
+    color:khaki;
+    text-align: center;
+}
+h2{
+    font-size:32px;
+    font-weight:bold;
+}
+.Brushes{
+    background-color: mediumspringgreen;
+    color:white;
+}
+.Frames{
+    background-color: lightcoral;
+    color:white;
+}
+.Paint{
+    background-color: skyblue;
+    color:white;
+}
+p strong{
+    color:blue;
+}

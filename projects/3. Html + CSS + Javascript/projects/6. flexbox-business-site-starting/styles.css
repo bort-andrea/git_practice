@@ -1,0 +1,132 @@
+*{
+    font-family: Kanit;
+    font-size: 20px;
+    letter-spacing: 0.2rem;
+}
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 1.7rem;
+}
+h3{
+    font-size: 1.3rem;
+}
+body{
+    display:grid;
+    grid-template-areas: "header header header"
+                         "statement statement statement"
+                         "service service service"
+                         "team team team"
+                         "footer footer footer";
+    grid-template-columns: 1fr;
+}
+
+header{
+    grid-area: header;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+header h1{
+    text-align: center;
+}
+nav{
+    display: inline-flex;
+    justify-content: space-around;
+}
+nav a{
+    color:black;
+}
+
+.statement{
+    grid-area: statement;
+    margin-top:2rem;
+    min-height: 20rem;
+    background-image: url("images/sfondo1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    align-content: center;
+}
+.motto{
+    padding-top: -0.5rem;
+    padding-bottom: -0.5rem;
+    background-color: white;
+    text-align: center;
+}
+.motto p{
+    margin-top:-1.5rem;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+.service{
+    margin-top:2rem;
+    grid-area: service;
+}
+.frase{
+    text-align: center;
+}
+.frase p{
+    margin-top:-1.5rem;
+}
+.lavoro{
+    margin-top:1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.attivita{
+    width: 50%;
+    text-align: center;
+    min-width: 20rem;
+}
+.attivita img{
+    width: 60%;
+    height:60%;
+}
+.team{
+    grid-area: team;
+    text-align: center;
+}
+.team_container{
+    margin-top:-1rem;
+    min-height: 20rem;
+    background-image: url("images/sfondo2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    align-content: center;
+    
+}
+.people{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:70%;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.staff{
+    margin-top:2rem;
+    width:33%;
+    min-width: 10rem;
+}
+.description{
+    line-height: -1.5rem;
+    margin-top:-0.5rem;
+    color:#014260;
+}
+.team img{
+    width:70%;
+    height:auto;
+}
+footer{
+    grid-area: footer;
+    text-align: center;
+}
+.contact{
+    margin-top:-1.5rem;
+}

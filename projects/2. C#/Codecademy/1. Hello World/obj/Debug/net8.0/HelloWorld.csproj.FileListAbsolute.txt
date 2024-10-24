@@ -1,0 +1,14 @@
+c:\Users\andre\Progetti Codecademy\2. C#\Codecademy\1. Hello World\bin\Debug\net8.0\HelloWorld.exe
+c:\Users\andre\Progetti Codecademy\2. C#\Codecademy\1. Hello World\bin\Debug\net8.0\HelloWorld.deps.json
+c:\Users\andre\Progetti Codecademy\2. C#\Codecademy\1. Hello World\bin\Debug\net8.0\HelloWorld.runtimeconfig.json
+c:\Users\andre\Progetti Codecademy\2. C#\Codecademy\1. Hello World\bin\Debug\net8.0\HelloWorld.dll
+c:\Users\andre\Progetti Codecademy\2. C#\Codecademy\1. Hello World\bin\Debug\net8.0\HelloWorld.pdb
+c:\Users\andre\Progetti Codecademy\2. C#\Codecademy\1. Hello World\obj\Debug\net8.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\andre\Progetti Codecademy\2. C#\Codecademy\1. Hello World\obj\Debug\net8.0\HelloWorld.AssemblyInfoInputs.cache
+c:\Users\andre\Progetti Codecademy\2. C#\Codecademy\1. Hello World\obj\Debug\net8.0\HelloWorld.AssemblyInfo.cs
+c:\Users\andre\Progetti Codecademy\2. C#\Codecademy\1. Hello World\obj\Debug\net8.0\HelloWorld.csproj.CoreCompileInputs.cache
+c:\Users\andre\Progetti Codecademy\2. C#\Codecademy\1. Hello World\obj\Debug\net8.0\HelloWorld.dll
+c:\Users\andre\Progetti Codecademy\2. C#\Codecademy\1. Hello World\obj\Debug\net8.0\refint\HelloWorld.dll
+c:\Users\andre\Progetti Codecademy\2. C#\Codecademy\1. Hello World\obj\Debug\net8.0\HelloWorld.pdb
+c:\Users\andre\Progetti Codecademy\2. C#\Codecademy\1. Hello World\obj\Debug\net8.0\HelloWorld.genruntimeconfig.cache
+c:\Users\andre\Progetti Codecademy\2. C#\Codecademy\1. Hello World\obj\Debug\net8.0\ref\HelloWorld.dll

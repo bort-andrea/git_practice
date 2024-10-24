@@ -1,0 +1,114 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+body{
+    display: inline;
+    margin:0;
+    width:100%;
+    background-color: #cf716f;
+}
+header{
+    width: 100%;
+    min-height: 4rem;
+    background-color: #00A676;
+    align-content: end;
+}
+nav{
+    width:50%;
+    min-width: 20rem;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li{
+    display: flex;
+    color: #0D0630;
+    font-weight: bold;
+}
+@media only screen and (max-width: 940px){
+    nav{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        padding:0;
+        
+    }
+    li{
+        display: block;
+        text-align: center;
+        padding-top: 1rem;
+    }
+}
+.sfondo{
+    display: flex;
+    min-height: 40rem;
+    background-image: url("images/sfondo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+.name{
+    display: flex;
+    width: 100%;
+    min-height: 7rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #605B56;
+}
+.name h1{
+    color:#cf716f;
+    font-size: 2rem;
+}
+.describe{
+    margin-top: 2rem;
+    padding-left: 1rem;
+}
+.describe h1{
+    color:yellow;
+    font-size: 2rem;
+}
+.describe p{
+    color:white;
+}
+.foto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width:100%;
+    margin-bottom: 5rem;
+}
+.container{
+    margin-top: 1rem;
+    width: 30%;
+    max-height: 16rem;
+    overflow: hidden;
+}
+.container img{
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+@media only screen and (max-width: 1048px){
+    .foto{
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: column;
+        align-content: space-around;
+    }
+    .container{
+        width: 100%;
+        max-height: fit-content;
+    }
+}
